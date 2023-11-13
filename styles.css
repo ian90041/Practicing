@@ -1,0 +1,67 @@
+body {
+  margin: 0 auto;
+  width: 960px;
+  background-color: black;
+  color: white;
+  font-family: Consolas;
+  text-align: center;
+}
+
+.machine {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid white;
+}
+
+.slot {
+  flex: 1;
+  margin: 50px 70px;
+  text-align: center;
+  justify-content: center;
+  padding: 30px;
+  border: 1px solid white;
+}
+
+.icon {
+  font-size: 50px;
+  padding: 30px;
+}
+
+.button-container {
+  flex: 100%;
+  width: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.start-button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: 5px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 30px;
+  font-size: 50px;
+  font-family: inherit;
+}
+
+.states-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  border: 1px solid white;
+}
+
+.money {
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ font-size: 100px;
+ margin: 50px;
+}
+
+.history-entry {
+  font-size: 30px;
+}
