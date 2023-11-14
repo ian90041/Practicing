@@ -1,6 +1,7 @@
 body {
   margin: 0 auto;
-  width: 960px;
+  width: 100%;
+  max-width: 960px;
   background-color: black;
   color: white;
   font-family: Consolas;
@@ -15,10 +16,10 @@ body {
 
 .slot {
   flex: 1;
-  margin: 50px 70px;
+  margin: 10px;
   text-align: center;
   justify-content: center;
-  padding: 30px;
+  padding: 10px;
   border: 1px solid white;
 }
 
@@ -42,7 +43,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   margin: 30px;
-  font-size: 50px;
+  font-size: 30px;
   font-family: inherit;
 }
 
@@ -58,10 +59,11 @@ body {
  align-items: center;
  justify-content: center;
  text-align: center;
- font-size: 100px;
- margin: 50px;
+ font-size: 50px;
+ margin: 20px;
 }
 
 .history-entry {
-  font-size: 30px;
+  font-size: 20px;
 }
+
